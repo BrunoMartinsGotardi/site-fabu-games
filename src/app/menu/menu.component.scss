@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 120px;
+  list-style: none;
+
+  li {
+    font-size: 22px;
+
+    &:hover {
+      opacity: 0.5;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+  }
+}

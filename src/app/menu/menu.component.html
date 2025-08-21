@@ -1,0 +1,5 @@
+<ul>
+  @for (item of menu; track $index) {
+  <li (mouseenter)="hover()" (click)="navegar(item.rota)">{{ item.label }}</li>
+  }
+</ul>
